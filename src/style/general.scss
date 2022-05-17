@@ -1,0 +1,26 @@
+.primary-title {
+  background-color: $brand-primary-color;
+  color: $brand-secondary-color;
+  padding: 0.5rem;
+}
+
+.secondary-title {
+  background-color: $brand-secondary-color;
+  color: $brand-primary-color;
+}
+
+a.my-link {
+  @include app-button();
+  display: inline-block;
+  color: $brand-secondary-color;
+  background-color: $brand-primary-color;
+}
+
+button.my-btn {
+  @include app-button();
+  background-color: white;
+
+  &.my-btn-primary {
+    background-color: $brand-primary-color;
+  }
+}

@@ -16,8 +16,11 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import "../style/variables.scss";
+
 .title-link {
-    color: green;
+    color: $brand-primary-color;
+    background-color: $brand-secondary-color;
 }
 </style>
